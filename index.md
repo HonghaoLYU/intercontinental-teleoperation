@@ -9,7 +9,8 @@ Tips: You can get a better experience of this site in [Google chrome](https://ww
 
 #### Citation:
 This work has been submmited to [The 16th International Conference on Intelligent Robotics and Applications](https://icira2023.org/).
-<!--```
+<!--
+```
 @ARTICLE{9693932,  
         author={Lv, Honghao and Kong, Depeng and Pang, Gaoyang and Wang, Baicun and Yu, Zhangwei and Pang, Zhibo and Yang, Geng},  
         journal={IEEE Transactions on Medical Robotics and Bionics},   
@@ -20,7 +21,8 @@ This work has been submmited to [The 16th International Conference on Intelligen
         pages={106-117},  
         doi={10.1109/TMRB.2022.3146621}
 }
-``` -->
+```
+-->
 
 #### Abstract:
 We present a novel cloud-based human-robot motion mapping framework for ultra-remote teleoperation. An intuitive dual-arm human-robot motion mapping framework based on capturing human motion has been implemented, and a private network connectivity is established using the Google cloud platform for efficient transfer of control data required for human-robot motion mapping. To demonstrate the feasibility of the proposed approach, an intercontinental teleoperation system between China and Sweden was developed, and a series of practical applications were demonstrated by capturing the motion of operator in Sweden to control the dual-arm robot located over 7800KM away in China.
