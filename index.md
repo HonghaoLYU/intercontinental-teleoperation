@@ -1,15 +1,15 @@
 Tips: You can get a better experience of this site in [Google chrome](https://www.google.com/chrome) browser.
 
 # Overview
-## Welcome to our Project: GuLiM motion transfer
+## Welcome to our Project: Intercontinental Teleoperation (An Ultra-Remote Telerobotic System)
 <p align='center'>
-<img src="https://honghaolyu.github.io/GuLiM-motion-transfer/assets/images/teleop-dualarm.gif" width="400" height="240" alt="demo of dualarm teleop"/>
-<img src="https://honghaolyu.github.io/GuLiM-motion-transfer/assets/images/teleop-grasp.gif" width="400" height="240" alt="demo of dualarm grasp"/>
+<img src="https://honghaolyu.github.io/intercontinental-teleoperation/assets/images/teleop-dualarm.gif" width="400" height="240" alt="demo of dualarm teleop"/>
+<img src="https://honghaolyu.github.io/intercontinental-teleoperation/assets/images/teleop-grasp.gif" width="400" height="240" alt="demo of dualarm grasp"/>
 </p>
 
 #### Citation:
-This work has been published in [IEEE Transactions on Medical Robotics and Bionics](https://ieeexplore.ieee.org/document/9693932).
-```
+This work has been submmited to [The 16th International Conference on Intelligent Robotics and Applications](https://icira2023.org/).
+<!--```
 @ARTICLE{9693932,  
         author={Lv, Honghao and Kong, Depeng and Pang, Gaoyang and Wang, Baicun and Yu, Zhangwei and Pang, Zhibo and Yang, Geng},  
         journal={IEEE Transactions on Medical Robotics and Bionics},   
@@ -20,10 +20,10 @@ This work has been published in [IEEE Transactions on Medical Robotics and Bioni
         pages={106-117},  
         doi={10.1109/TMRB.2022.3146621}
 }
-```
+``` -->
 
 #### Abstract:
-We present an intuitive teleoperation approach for human-robot motion transfer. Hybrid mapping of hand gesture and limb motion method (GuLiM) with incremental pose mapping strategy is introduced to flexibly map the workspace between human and robot. This GuLiM method cost-effectively enables a non-expert to transfer a rough manipulation skill to an assistive robot for challenging tasks.
+We present a novel cloud-based human-robot motion mapping framework for ultra-remote teleoperation. An intuitive dual-arm human-robot motion mapping framework based on capturing human motion has been implemented, and a private network connectivity is established using the Google cloud platform for efficient transfer of control data required for human-robot motion mapping. To demonstrate the feasibility of the proposed approach, an intercontinental teleoperation system between China and Sweden was developed, and a series of practical applications were demonstrated by capturing the motion of operator in Sweden to control the dual-arm robot located over 7800KM away in China.
 
 <p align='center'>
 <img src="https://honghaolyu.github.io/GuLiM-motion-transfer/assets/images/process.jpg" width="1000" height="600" alt="GuLiM process"/>
@@ -34,9 +34,10 @@ We present an intuitive teleoperation approach for human-robot motion transfer. 
 
 # Setup
 <p align='center'>
-<img src="https://honghaolyu.github.io/GuLiM-motion-transfer/assets/images/setup.png" width="800" height="600" alt="setup of the grasp task"/>
+<img src="https://honghaolyu.github.io/intercontinental-teleoperation/assets/images/setup.png" width="800" height="600" alt="setup of the grasp task"/>
 </p>
 
+# Demonstration:
 # Task1:
 ### Grab a block and place it in the specific region.
 
