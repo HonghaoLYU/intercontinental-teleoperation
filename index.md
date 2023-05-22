@@ -2,10 +2,10 @@ Tips: You can get a better experience of this site in [Google chrome](https://ww
 
 # Overview
 ## Welcome to our Project: Intercontinental Teleoperation (An Ultra-Remote Telerobotic System)
-<p align='center'>
+<!-- <p align='center'>
 <img src="https://honghaolyu.github.io/intercontinental-teleoperation/assets/images/teleop-dualarm.gif" width="400" height="240" alt="demo of dualarm teleop"/>
 <img src="https://honghaolyu.github.io/intercontinental-teleoperation/assets/images/teleop-grasp.gif" width="400" height="240" alt="demo of dualarm grasp"/>
-</p>
+</p> -->
 
 #### Citation:
 This work has been submmited to [The 16th International Conference on Intelligent Robotics and Applications](https://icira2023.org/).
@@ -38,16 +38,16 @@ We present a novel cloud-based human-robot motion mapping framework for ultra-re
 <img src="https://honghaolyu.github.io/intercontinental-teleoperation/assets/images/setup.png" width="800" height="600" alt="setup of the grasp task"/>
 </p> -->
 
-# Demonstration:
+# Demonstration between China :cn: and Sweden :sweden::
 # Task1:
-### Workpiece insertion
+## Workpiece insertion
 
-## From region A to region B.
+### The robotic left arm and the right arm in China are controlled by the operator in Sweden to finish the insertion assembly task.
 
 <table align='center'>
 <tr>
+<td align='center' valign="middle"> <video src="assets\media\zip\workpiece insertion_view2.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
 <td align='center' valign="middle"> <video src="assets\media\zip\workpiece insertion_view1.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
-<td align='center' valign="middle"> <video src="assets\media\workpiece insertion_view2_batch.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
 </tr>
 <tr>
 <td align='center'> View 1 (GoPro View in Sweden) </td>
@@ -56,14 +56,14 @@ We present a novel cloud-based human-robot motion mapping framework for ultra-re
 </table>
 
 # Task2:
-### Auscultation
+## Auscultation
 
-## From region A to region C.
+### The robotic hand with the Doppler Ultrasound Stethoscope in China are controlled by the operator in Sweden to finish the remote auscultation task.
 
 <table align='center'>
 <tr>
-<td align='center' valign="middle"> <video src="assets\media\zip\auscultation_view1.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
 <td align='center' valign="middle"> <video src="assets\media\zip\auscultation_view2.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
+<td align='center' valign="middle"> <video src="assets\media\zip\auscultation_view1.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
 </tr>
 <tr>
 <td align='center'> View 1 (GoPro View in Sweden) </td>
@@ -72,9 +72,8 @@ We present a novel cloud-based human-robot motion mapping framework for ultra-re
 </table>
 
 # Task3:
-### Vibration feedback
-
-##
+## Vibration feedback
+### The operator in Sweden can feel the vibration states, thereby gaining insight into the on-site robot’s motion and collision conditions.
 
 <table>
 <tr>
