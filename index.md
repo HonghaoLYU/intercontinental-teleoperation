@@ -9,8 +9,8 @@ Tips: You can get a better experience of this site in [Google chrome](https://ww
 
 #### Citation:
 This work has been submmited to [The 16th International Conference on Intelligent Robotics and Applications](https://icira2023.org/).
-<!--
-```
+
+<!-- ```
 @ARTICLE{9693932,  
         author={Lv, Honghao and Kong, Depeng and Pang, Gaoyang and Wang, Baicun and Yu, Zhangwei and Pang, Zhibo and Yang, Geng},  
         journal={IEEE Transactions on Medical Robotics and Bionics},   
@@ -21,130 +21,68 @@ This work has been submmited to [The 16th International Conference on Intelligen
         pages={106-117},  
         doi={10.1109/TMRB.2022.3146621}
 }
-```
--->
+``` -->
 
 #### Abstract:
 We present a novel cloud-based human-robot motion mapping framework for ultra-remote teleoperation. An intuitive dual-arm human-robot motion mapping framework based on capturing human motion has been implemented, and a private network connectivity is established using the Google cloud platform for efficient transfer of control data required for human-robot motion mapping. To demonstrate the feasibility of the proposed approach, an intercontinental teleoperation system between China and Sweden was developed, and a series of practical applications were demonstrated by capturing the motion of operator in Sweden to control the dual-arm robot located over 7800KM away in China.
 
 <p align='center'>
-<img src="https://honghaolyu.github.io/GuLiM-motion-transfer/assets/images/process.jpg" width="1000" height="600" alt="GuLiM process"/>
+<img src="assets\images\overview.jpg" width="1000" height="600" alt="Intercontinental Teleoperation"/>
 </p>
 
 #### Contact: 
 [Honghao Lv](http://fsie-zju.com/team/) (lvhonghao [at] zju.edu.cn)
 
-# Setup
+<!-- # Setup
 <p align='center'>
 <img src="https://honghaolyu.github.io/intercontinental-teleoperation/assets/images/setup.png" width="800" height="600" alt="setup of the grasp task"/>
-</p>
+</p> -->
 
 # Demonstration:
 # Task1:
-### Grab a block and place it in the specific region.
+### Workpiece insertion
 
 ## From region A to region B.
 
 <table align='center'>
 <tr>
-<td align='center' valign="middle"> <video src="https://honghaolyu.github.io/GuLiM-motion-transfer/assets/media/zip/ABP1T1_batch.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
-<td align='center' valign="middle"> <video src="https://honghaolyu.github.io/GuLiM-motion-transfer/assets/media/zip/AB-R-P1 (2)_batch.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
+<td align='center' valign="middle"> <video src="assets\media\zip\workpiece insertion_view1.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
+<td align='center' valign="middle"> <video src="assets\media\workpiece insertion_view2_batch.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
 </tr>
 <tr>
-<td align='center'> DMM </td>
-<td align='center'> GuLiM </td>
+<td align='center'> View 1 (GoPro View in Sweden) </td>
+<td align='center'> View 2 (Screen Recording View) </td>
 </tr>
 </table>
+
+# Task2:
+### Auscultation
 
 ## From region A to region C.
 
 <table align='center'>
 <tr>
-<td align='center' valign="middle"> <video src="https://honghaolyu.github.io/GuLiM-motion-transfer/assets/media/zip/AC-P1 (2)_batch.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
-<td align='center' valign="middle"> <video src="https://honghaolyu.github.io/GuLiM-motion-transfer/assets/media/zip/AC-R-P1 (1)_batch.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
+<td align='center' valign="middle"> <video src="assets\media\zip\auscultation_view1.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
+<td align='center' valign="middle"> <video src="assets\media\zip\auscultation_view2.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
 </tr>
 <tr>
-<td align='center'> DMM </td>
-<td align='center'> GuLiM </td>
+<td align='center'> View 1 (GoPro View in Sweden) </td>
+<td align='center'> View 2 (Screen Recording View) </td>
 </tr>
 </table>
 
-## From region A to region D.
+# Task3:
+### Vibration feedback
+
+##
 
 <table>
 <tr>
-<td align='center' valign="middle"> <video src="https://honghaolyu.github.io/GuLiM-motion-transfer/assets/media/zip/ADP1T2_batch.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
-<td align='center' valign="middle"> <video src="https://honghaolyu.github.io/GuLiM-motion-transfer/assets/media/zip/ADRP1T4_batch.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
+<!-- <td align='center' valign="middle"> <video src="https://honghaolyu.github.io/GuLiM-motion-transfer/assets/media/zip/degree30-P1 (2)_batch.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td> -->
+<td align='center' valign="middle"> <video src="assets\media\zip\vibration feedback.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
 </tr>
 <tr>
-<td align='center'> DMM </td>
-<td align='center'> GuLiM </td>
+<!-- <td align='center'> DMM </td> -->
+<td align='center'> View (Screen Recording View) </td>
 </tr>
 </table>
-
-# Task2:
-### Grab a block and place it at the specific angle.
-
-## Place at 30 degrees.
-
-<table>
-<tr>
-<td align='center' valign="middle"> <video src="https://honghaolyu.github.io/GuLiM-motion-transfer/assets/media/zip/degree30-P1 (2)_batch.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
-<td align='center' valign="middle"> <video src="https://honghaolyu.github.io/GuLiM-motion-transfer/assets/media/zip/degree30-R-P1 (2)_batch.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
-</tr>
-<tr>
-<td align='center'> DMM </td>
-<td align='center'> GuLiM </td>
-</tr>
-</table>
-
-## Place at 60 degrees.
-
-<table>
-<tr>
-<td align='center' valign="middle"> <video src="https://honghaolyu.github.io/GuLiM-motion-transfer/assets/media/zip/degree60-P1 (2)_batch.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
-<td align='center' valign="middle"> <video src="https://honghaolyu.github.io/GuLiM-motion-transfer/assets/media/zip/degree60-R-P1 (3)_batch.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
-</tr>
-<tr>
-<td align='center'> DMM </td>
-<td align='center'> GuLiM </td>
-</tr>
-</table>
-
-## Place at 90 degrees.
-
-<table>
-<tr>
-<td align='center' valign="middle"> <video src="https://honghaolyu.github.io/GuLiM-motion-transfer/assets/media/zip/degree90-P1 (5)_batch.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
-<td align='center' valign="middle"> <video src="https://honghaolyu.github.io/GuLiM-motion-transfer/assets/media/zip/degree90-R-P1-batch (3)_batch.mp4" type="video/mp4" controls="controls" width="500" height="282"> 您的浏览器不支持播放该视频！</video> </td>
-</tr>
-<tr>
-<td align='center'> DMM </td>
-<td align='center'> GuLiM </td>
-</tr>
-</table>
-
-
-<!-- ### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/). -->
