@@ -24,7 +24,7 @@ This work has been submmited to [The 16th International Conference on Intelligen
 ``` -->
 
 #### Abstract:
-We present a novel cloud-based human-robot motion mapping framework for ultra-remote teleoperation. An intuitive dual-arm human-robot motion mapping framework based on capturing human motion has been implemented, and a private network connectivity is established using the Google cloud platform for efficient transfer of control data required for human-robot motion mapping. To demonstrate the feasibility of the proposed approach, an intercontinental teleoperation system between China and Sweden was developed, and a series of practical applications were demonstrated by capturing the motion of operator in Sweden to control the dual-arm robot located over 7800KM away in China.
+We present a novel cloud-based human-robot motion mapping framework for ultra-remote teleoperation. An intuitive dual-arm human-robot motion mapping framework based on capturing human motion has been implemented, and a private network connectivity is established using the Google cloud platform for efficient transfer of control data required for human-robot motion mapping. To demonstrate the feasibility of the proposed approach, an intercontinental teleoperation system between China and Sweden was developed, and a series of practical applications were demonstrated by capturing the motion of operator in Sweden :sweden: to control the dual-arm robot located over 7800KM away in China :cn:.
 
 <p align='center'>
 <img src="assets\images\overview.jpg" width="1000" height="600" alt="Intercontinental Teleoperation"/>
@@ -38,7 +38,7 @@ We present a novel cloud-based human-robot motion mapping framework for ultra-re
 <img src="https://honghaolyu.github.io/intercontinental-teleoperation/assets/images/setup.png" width="800" height="600" alt="setup of the grasp task"/>
 </p> -->
 
-# Demonstration between China :cn: and Sweden :sweden::
+# Demonstration between China and Sweden:
 # Task1:
 ## Workpiece insertion
 
